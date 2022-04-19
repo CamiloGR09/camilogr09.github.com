@@ -1,0 +1,128 @@
+/*
+Colores 
+
+#107361
+#1D7373
+#0F5959
+#0A3A40
+#042326
+*/
+
+.html{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.html2{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.title{
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+
+}
+
+.paragraph{
+    line-height: 1.5em;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 128, 255);
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+    .table td,.table th{
+        padding: 1em;
+        text-align: left;
+    }
+
+.container{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bdc3c7,#2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  #bdc3c7,#2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    max-width: 900px;
+    max-height: 400px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0,0.16),0 3px 6px rgba(0, 0, 0.23);
+    border-radius: 10px;
+    position: relative;
+    padding: 1.8em;
+}
+
+.actions{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+.close{
+    background-color:#0F5959 ;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    display:inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.table tr:nth-child(odd){
+    background-color:#107361 ;
+}
+
+.table tr:nth-child(even){
+    background-color:#042326 ;
+}
+
+.fa-star{
+    color:rgba(255, 255, 0, 0.863);
+    }
+
+.title-item{
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #0F5959;
+    padding-bottom: 1em;
+}
+
+.position{
+    background-color:#0F5959 ;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 0.5em;
+    font-size: x-large;
+}
+
+img{
+    float: left;
+    width: 330px;
+    height: auto;
+    margin-right: 10px;
+}
